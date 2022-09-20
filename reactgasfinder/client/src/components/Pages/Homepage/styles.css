@@ -1,0 +1,31 @@
+.container{
+    display: inline-block;
+    margin-left: 2rem;
+    position: absolute;
+    left: 10rem;
+    top: 40vH;
+}
+
+.container-text{
+    /* color: rgb(53, 129, 204); */
+    color: black;
+    display: block;
+    font-size: 5rem;
+}
+
+#subText{
+    font-size: 2rem;
+}
+
+#loginBtn{
+    display: block;
+    position: relative;
+    margin-top: 1rem;
+}
+
+#stationImage{
+    display: inline-flex;
+    position: absolute;
+    right: 15rem;
+    top: 20vH;
+}

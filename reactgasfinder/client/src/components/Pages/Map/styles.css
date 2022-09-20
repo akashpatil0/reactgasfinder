@@ -1,0 +1,102 @@
+.mapContainer {
+  height: 85vh;
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 15px;
+  display: inline-flex;
+}
+
+.markerContainer {
+  font-size: 1.25rem;
+  position: absolute;
+  cursor: pointer;
+  transform: translate(10%, 10%);
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.65);
+  max-width: 300px;
+  max-height: 200px;
+  min-width: 250px;
+  color: white;
+  padding: 10px;
+}
+
+.location-marker {
+  font-size: 1.5rem;
+  color: blue;
+}
+
+.location-marker:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.infoboxExit {
+  font-size: 1.25rem;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  left: 205px;
+  top: -30px;
+}
+
+.location-details {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: rgb(164, 162, 162);
+  border-left: 5px solid steelblue;
+  font-size: 1.5rem;
+  padding: 5px;
+  margin: 10px;
+}
+
+.location-details > h1,
+h2,
+h3 {
+  padding-left: 10px;
+}
+
+.list {
+  height: 80vh;
+  overflow: auto;
+  margin: 0px;
+}
+
+h4 {
+  border-bottom: 2px solid rgb(164, 162, 162);
+}
+
+.mapLogin {
+  font-size: 3rem;
+  margin-top: 30vh;
+  text-align: center;
+}
+
+#loginButton {
+  position: absolute;
+  top: 45vh;
+  left: 47vw;
+}
+
+.search {
+  font-size: 1.5rem;
+  border-bottom: solid 2px rgb(164, 162, 162);
+}
+
+.search input {
+  font-size: 1.25rem;
+  background-color: rgba(164, 162, 162, 0.25);
+  color: black;
+  display: inline-flex;
+  border-radius: 5px;
+  text-indent: 5px;
+  padding: 3px;
+  max-height: 35px;
+  max-width: 100px;
+  margin-left: 10px;
+  margin-bottom: 7px;
+}
+
+.search input:hover {
+  background-color: rgba(164, 162, 162, 0.4);
+}
